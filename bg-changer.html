@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="css/output.css">
+        <title>Counter Program</title>
+    </head>
+    <body class="bg-slate-300 min-h-screen flex items-center justify-center">
+<div class="flex flex-col items-center bg-slate-200 px-10 py-20 border-4 rounded-md">
+        <label class="text-black text-3xl pb-10" id="display" >Color: <span id="hex-display" onclick="copyHex()" class="cursor-pointer hover:underline"></span></label>
+        <div>
+            <button onclick="change1()" id="red-btn" class="p-6 rounded-md bg-red-300 hover:bg-red-200 text-zinc-950">Red</button>
+            <button onclick="change2()" id="blue-btn" class="p-6 rounded-md bg-blue-300 hover:bg-blue-200 text-zinc-950 ">Blue</button>
+            <button onclick="change3()" id="emerald-btn" class="p-6 rounded-md bg-emerald-300 hover:bg-emerald-200 text-zinc-950 ">Green</button>
+        </div>
+        <button onclick="random()" id="random-btn" class="p-6 m-5 rounded-md bg-pink-300 hover:bg-pink-200 text-zinc-950 ">Randomize</button>
+        <button onclick="reset()" id="reset-btn" class="p-6 m-5 rounded-md bg-slate-300 hover:bg-slate-400 text-zinc-950 ">Reset</button>
+</div>
+
+
+<script src="js/bg-changer.js"></script>
+    </body>
+</html>

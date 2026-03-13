@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="css/output.css">
+        <title>Counter Program</title>
+    </head>
+    <body class="bg-slate-300 min-h-screen flex items-center justify-center">
+<div class="flex flex-col items-center">
+        <label class="text-black text-3xl" id="display" >0</label>
+        <div>
+            <button onclick="increment()" id="btn-1" class="bg-yellow-100 hover:bg-yellow-200 text-zinc-950 px-5 m-5">Increase</button>
+            <button onclick="decrement()" id="btn-2" class="bg-lime-100 hover:bg-amber-200 px-5 text-zinc-950 m-5">Decrease</button>
+            <button onclick="reset()"id="btn-3" class="bg-lime-200 hover:bg-lime-300 text-zinc-950 px-5 m-5">Reset</button>
+        </div>
+</div>
+
+
+<script src="js/counter.js"></script>
+    </body>
+</html>
